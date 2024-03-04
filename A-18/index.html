@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Navbar and Grid System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .width{
+            width: 600px;
+        }
+        .para-width{
+            width: 350px;
+            text-wrap:wrap;
+        }
+    </style>
+</head>
+<body class="">
+    <nav class="navbar navbar-expand-lg bg-body-secondary border-bottom border-body" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Creams</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Facilities
+                </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Free of Cist</a></li>
+                  <li><a class="dropdown-item" href="#">Live content</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Offline contents</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+             
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 width" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <img src="./profile.png" height="35px" class="mx-4">
+          </div>
+        </div>
+      </nav>
+
+      <div class="container text-center py-2">
+                  <div class="row border border-primary my-4 py-4 shadow mb-5 bg-body-tertiary rounded ">
+
+            <div class="col border-primary">
+                      <img src="./images/ice-cream.png" height="350px" class="py-4">
+            </div>
+            <div class="col border-primary">
+                <p class="para-width fw-medium fs-5 md-4"> <span class="fs-4 fw-bold my-4">World Of Ice-Creams</span><br>
+                    <span class="fs-6 fw-bold">Enjoy our delicious ice-cream</span> <br>Ice-cream is a one of the favourite dessert of all people. Especially all prefer eating it in summer. It is all time favourite sweet. Children are craziest fan of it.Enjoy the exclusive creations of Cool-Ice. You will be amazed by its homemade aroma and taste. Discover our flavours.
+                You will get burst full of natural flavours.</p> 
+      </div>
+      <div class="col para-width fw-medium fs-5">
+        <ul class="fw-5 list-group list-group-flush"><span class="fs-4 fw-bold">Variety of Flavours:</span>
+        <li class="list-group-item">Cookie Disc cone</li>
+        <li class="list-group-item">Double spin pineapple</li>
+        <li class="list-group-item">Strawberry N' cream</li>
+        <li class="list-group-item">ice-cream pastry</li>
+        <li class="list-group-item">Falala strawberry</li>
+        <li class="list-group-item">Mango icecream kulfi</li>
+        <li class="list-group-item">chocolate kulfi</li>
+        
+    </ul>
+    
+</div>
+          </div>
+          </div>
+      </div>
+</body>
+</html>
