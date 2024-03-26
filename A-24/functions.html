@@ -8,7 +8,7 @@
 <body>
    <script>
      // Argument and return
-     document.write("Argument And Return Function </br>");
+     document.write("1.Argument And Return Function </br><br>");
 
      function area(r){
         document.write(`Area of circle with Radius ${r} is:`);
@@ -17,7 +17,51 @@
 
      }
      
-     area(2);
+     const circle= area(2);
+     document.write(` ${circle}<br><br>`);
+
+
+     
+     // Argument but no return
+     document.write("2.Argument And NoReturn Function </br><br>");
+
+     function area1(r){
+        document.write(`Area of circle with Radius ${r} is:`);
+        let areaOfCircle1=3.14*r*r;
+     document.write(` ${areaOfCircle1}<br><br>`);
+        
+
+     }
+     
+     area1(2);
+
+     
+     // No Argument and return
+     document.write("3.No Argument And Return Function </br><br>");
+
+     function area2(){
+      const r=2;
+        document.write(`Area of circle with Radius ${r} is:`);
+        let areaOfCircle2=3.14*r*r;
+         return areaOfCircle2 ;
+
+     }
+let areacircle2=area2();
+document.write(`${areacircle2}`);
+
+
+     // No Argument and No return
+     document.write("<br><br>4.No Argument And No Return Function </br><br>");
+
+     function area3(){
+      const r=2;
+        document.write(`Area of circle with Radius ${r} is:`);
+        let areaOfCircle2=3.14*r*r;
+document.write(`${areaOfCircle2}`);
+         
+     }
+area3();
+
    </script>
 
 </body>
